@@ -1,6 +1,5 @@
 
  document.addEventListener("DOMContentLoaded", function () {
-  // -------- Formulaire Contact --------
   const contactForm = document.getElementById("contactForm");
   if (contactForm) {
     contactForm.addEventListener("submit", function (e) {
@@ -11,7 +10,7 @@
       const ref = document.getElementById("ref").value;
       const adresse = document.getElementById("adresse").value;
 
-      alert(`Thank you ${nom} !\nWe have successfully received your order.\nEmail : ${email}\nRef : ${ref}\nAdresse : ${adresse}`);
+      alert(`Thank you ${nom} !\nWe have successfully received your order.\nEmail : ${email}\nRf : ${ref}\nAdresse : ${adresse}`);
       console.log("Nom :", nom);
       console.log("Email :", email);
       console.log("Ref :", ref);
