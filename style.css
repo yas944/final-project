@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: #c8a1b08e;
+     padding: 70px;
+}
+.pink {
+    padding: 30px;
+    
+}
+
+.space {
+    gap: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    border:  none ;
+    border-radius: 10cap;
+    color: #986a7c; 
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    background-color: #fdf6f0;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 10px;
+  border-radius: 1cap;
+}
+
+.center video {
+  width: 23%;
+  height: 60%;
+  border: 3px ;
+  padding: 0;
+  display: block;
+  margin: 0px;
+  border-radius: 1cap;
+  
+
+}
+.hero-banner {
+  text-align: center;
+  padding: 80PX;
+  background-color: #fdf6f0;
+  font-family: 'Georgia', serif;
+  color: #6d2e46; 
+  margin-bottom: 20px;
+  border-radius: 6px;
+
+ 
+}
+
+.brand-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  
+}
+
+.brand-slogan {
+  font-size: 20px;
+  font-style: italic;
+  color: #c8a1b0;
+  border-bottom: 1px solid #c89b3c;
+  display: inline-block;
+ 
+}
+
+
+
+
+.text-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fdf6f0;
+  font-family: 'Georgia', serif;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+
+}
+
+.section-paragraph {
+  font-size: 25px;
+  line-height: 1.6;
+  color:rgba(93, 51, 93, 0.721);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-top: 50px;
+
+  
+}
+h2 {
+    color:  #c8a1b0;
+}
+.product {
+  text-align: center;
+  font-size: 32px;
+  color: #5a2a2a;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+
+.fancy {
+  width: 60px;
+  height: 3px;
+  background: #c89b3c;
+  margin: 0 auto 30px;
+  border-radius: 2px;
+}
+
+
+
+ h3 {
+    color: #5a2a2a;
+
+ }
+
+
+
+ img {
+  transition: transform 0.4s ease;
+    border-radius: 2cap;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+ img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#mail {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+
+
+
+
+
+.image-flip {
+  position: relative;
+  width: 600px; 
+  height: 800px; 
+  overflow: hidden;
+}
+
+.image-flip img {
+  position: absolute;
+  object-fit: cover;
+  transition: opacity 1s ease;
+}
+
+
+.image-flip img:nth-child(1) {
+  opacity: 1;
+  z-index: 1;
+}
+
+
+.image-flip img:nth-child(2) {
+  opacity: 0;
+  z-index: 2;
+}
+
+
+.image-flip:hover img:nth-child(2) {
+  opacity: 1;
+}
+
+
+.image-flip:hover img:nth-child(1) {
+  opacity: 0;
+}
+
+
+
+.price {
+    font-size: 50px;
+    background-color: #c8a1b070;
+    display: inline-block;
+    margin-right: 0;
+    border-radius: 1cap;
+    padding-left: 25px;
+   
+
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    margin-top: 30px;
+}
+p {
+    color: white;
+}
+.btn2 {
+    border:  4px solid rgb(239, 201, 214) ;
+    border-radius: 10cap;
+    color: #986a7c; 
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    background-color: #fdf6f0;
+    margin-bottom: 100px;
+    font-size: 30px;
+
+}
+
+.contact-form-section {
+  background-color: #fdf3f6;
+  padding: 30px;
+  border-top: 2px solid #eec9d2;
+  text-align: center;
+}
+
+.form-title {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #b88c6d; 
+  margin-bottom: 20px;
+}
+
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contactForm label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #cc7c94;
+  text-align: left;
+}
+
+#contactForm input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #e9c4cf;
+  border-radius: 8px;
+  background-color: #fff9fa;
+  font-family: sans-serif;
+}
+
+#contactForm button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e39bab;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contactForm button:hover {
+  background-color: #d68b9a;
+}
